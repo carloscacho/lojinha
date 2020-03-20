@@ -1,0 +1,20 @@
+{
+    "name": "carloscacho/lojinha",
+    "description": "e-commerce de teste para aulas de PHP7",
+    "authors": [
+        {
+            "name": "Carlos E A Cacho",
+            "email": "carlos.cacho@ifms.edu.br"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\carloscacho\\php-classes\\src"
+        }
+    }
+}
